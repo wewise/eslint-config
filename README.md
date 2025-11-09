@@ -6,7 +6,6 @@ This package exposes a few named configuration files for different environments:
 
 - `base.config.mjs` – base rules
 - `react.config.mjs` – React-focused rules
-- `react-internal.config.mjs` – internal React rules (private conventions)
 - `next.config.mjs` – Next.js specific rules
 
 Usage
