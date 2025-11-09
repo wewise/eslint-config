@@ -7,7 +7,6 @@
   "files": [
     "base.config.mjs",
     "react.config.mjs",
-    "react-internal.config.mjs",
     "next.config.mjs"
   ],
   "keywords": ["eslint", "eslint-config", "wewise", "react", "next"],
