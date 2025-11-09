@@ -1,0 +1,45 @@
+{
+  "name": "@wewise/eslint-config",
+  "version": "1.0.1",
+  "description": "Shared ESLint configurations for wewise projects (base, react, next)",
+  "type": "module",
+  "main": "base.config.mjs",
+  "files": [
+    "base.config.mjs",
+    "react.config.mjs",
+    "react-internal.config.mjs",
+    "next.config.mjs"
+  ],
+  "keywords": ["eslint", "eslint-config", "wewise", "react", "next"],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "pack": "npm pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wewise/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wewise/eslint-config/issues"
+  },
+  "homepage": "https://github.com/wewise/eslint-config#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@next/eslint-plugin-next": "^15.1.0",
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-only-warn": "^1.1.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-turbo": "^2.3.0",
+    "globals": "^15.12.0",
+    "typescript": "^5.3.3",
+    "typescript-eslint": "^8.15.0"
+  }
+}
